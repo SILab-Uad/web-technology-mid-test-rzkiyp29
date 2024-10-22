@@ -9,14 +9,14 @@
 <body>
     <div class="container">
         <h1>Password Generator</h1>
-        <!-- TODO: Create an input field for password length (between 8-128 characters) -->
+
+        <!-- Input field for password length -->
         <label for="length">Password Length:</label>
-        <br>
         <input type="number" id="length" value="12" min="8" max="128">
 
         <h3>Select criteria:</h3>
 
-        <!-- TODO: Create checkboxes for including uppercase, lowercase, numbers, and special characters -->
+        <!-- Checkboxes for including uppercase, lowercase, numbers, and special characters -->
         <label>
             <input type="checkbox" id="includeUppercase"> Include Uppercase
         </label><br>
@@ -29,7 +29,7 @@
         <label>
             <input type="checkbox" id="includeSpecialChars"> Include Special Characters
         </label><br>
-        
+
         <!-- Button container to align buttons left and right -->
         <div class="button-container">
             <!-- Button to generate the password -->
@@ -40,7 +40,7 @@
         </div>
 
         <!-- Text field to display the generated password -->
-        <p id="passwordOutput"></p>        
+        <p id="passwordOutput"></p>
     </div>
 
     <script src="script.js"></script>

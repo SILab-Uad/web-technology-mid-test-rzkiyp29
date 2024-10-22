@@ -1,5 +1,4 @@
 // TODO: Implement the password generation logic based on user input
-
 const generatePassword = (length, options) => {
     // Character sets for password generation
     const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -15,7 +14,7 @@ const generatePassword = (length, options) => {
     if (options.includeSpecialChars) characterSet += specialChars;
 
     if (characterSet === "") {
-        return "PILIH SALAH SATU KRITERIA LUR!!";
+        return "Pilih Salah Satu Dongg!";
     }
 
     // TODO: Generate the password based on the selected criteria
