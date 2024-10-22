@@ -28,17 +28,22 @@
             <input type="checkbox" id="includeSpecialChars"> Include Special Characters
         </label><br>
         
-        <!-- TODO: Create a button to generate the password -->
-        <button id="generateBtn">Generate Password</button>
-        
-        <!-- TODO: Create a text field to display the generated password -->
-        <p id="passwordOutput"></p>
+        <!-- Button container to align buttons left and right -->
+        <div class="button-container">
+            <!-- Button to Generate the Password -->
+            <button class="left-button" id="generateBtn">Generate Password</button>
+            
+            <!-- Bonus: Add a "Copy to Clipboard" button -->
+            <button class="right-button" id="copyBtn">Copy to Clipboard</button>
+        </div>
 
-        <!-- BONUS: Add a "Copy to Clipboard" button -->
-        <button id="copyBtn">Copy to Clipboard</button>
+        <!--text field to display the generated password-->
+        <p id="passwordOutput"></p>
+        
     </div>
 
     <script src="script.js"></script>
     <script src="dom.js"></script>
 </body>
 </html>
+

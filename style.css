@@ -10,7 +10,7 @@ body {
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #E0FFFF; /* Background color for container */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -21,7 +21,46 @@ body {
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: black; /* Header color */
+    text-align: center;
+}
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block; 
+    color: #778899;
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+button.left-button {
+    background-color: #90EE90; /* Green background for left button */
+    color: rgb(7, 4, 14); /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+button.right-button {
+    background-color: #90EE90; /* Orange background for right button */
+    color: rgb(15, 7, 7);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 10px;
 }
 
 /* Add more styles here as needed */
+button:hover {
+    opacity: 0.8;
+}
+
+
